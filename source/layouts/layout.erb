@@ -11,9 +11,9 @@
     
     <link rel="shortcut icon" href="http://www.lonestarfunds.com/wp-content/themes/lonestarfunds/_ui/images/common/favicon.ico">
     
-    <%= stylesheet_link_tag "app" %>
+    <%= stylesheet_link_tag "app" , :relative => true %>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <%= javascript_include_tag  "main" %>
+    <%= javascript_include_tag  "main" , :relative => true %>
     
   </head>
   
@@ -24,17 +24,21 @@
 	  <div class="header-outer">
 	  	<div class="header-inner">
 		<div class="site-logo">
-    		<a href="/"><img src="../images/common/lsf-logo.png" /></a>      
+    		<a href="/">   <%= image_tag  "../images/common/lsf-logo.png" , :relative => true %></a>      
 		</div> 
-		<div class="menu-link"><a class="active" href="#menu">MENU</a></div>
-		<nav id="menu" class="menu active">
+		<div class="menu-link"><a class="active" href="#">MENU</a></div>
+		<nav class="menu">
 			<ul>
 				<% data.nav.links.each do |links| %>
 					<li class="<% if links.sub_menu %>has-submenu<% end %> <% if links.is_last %>blue-bar<% end %>">
-						<%=link_to links.name,links.link%>
+						<%=link_to links.name,links.link,:class=>"desktop-link",:relative=> true%>
+						<%=link_to links.mobile_name,'#',:class=>"mobile-link ion-chevron-right"%>
 						<% if links.sub_menu %>
 							<ul class="sub-menu">
+							     <li class="back-link"><a>Back</a></li>
+							    <li class="sub-top-link"><%=link_to links.name,links.link%></li>
 								<% links.sub_menu.each do |sub_link| %>
+									<li class="sub-back-link"><a>Back</a></li>
 									<li>   
  										<%=link_to sub_link.name,sub_link.link%>
 									</li>
@@ -52,15 +56,16 @@
 			<%=yield%>
 		</section>
 	<footer>
-	<div>
+	<div class="footer-inner">
 		<div class="explore">
+			<%= image_tag  "../images/common/bg_explore.png" , :relative => true %>
 			<a href="http://www.lonestarfunds.com/contact-us/global-offices/" >Explore Our Locations Worldwide</a>
 		</div>
 		<nav class="quick-links-menu">
-		<ul id="menu-quick-links-menu" class="menu">
-			<li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="http://www.lonestarfunds.com/privacy-policy/">Privacy Policy</a></li>
-			<li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="http://www.lonestarfunds.com/terms-of-use/">Terms of Use</a></li>
-			<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://www.lonestarfunds.com/contact-us/">Contact Info</a></li>
+		<ul>
+			<li><a href="http://www.lonestarfunds.com/privacy-policy/">Privacy Policy</a></li>
+			<li><a href="http://www.lonestarfunds.com/terms-of-use/">Terms of Use</a></li>
+			<li><a href="http://www.lonestarfunds.com/contact-us/">Contact Info</a></li>
 		</ul>
 		</nav>
 		<div class="copyright">

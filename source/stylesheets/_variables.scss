@@ -9,8 +9,16 @@ $default-font-family:Georgia, serif;
 $nav-font-size:12px;
 
 //font-colors
-$btn-font-color:#ffffff;
+$link-default-color:#00a2ff;
+
+$btn-font-color:#ffffff; /*#1ba4fc;*/
+
 $nav-font-color:#122b80; //#193968;
+$nav-arrow-color:#3cb7fc;
+
+$footer-explore-color:#0065b8; /* #0e67b6;*/
+$footer-copyright-color:#5f6166;
+
 
 /* ==========================================================================
   							BACKGROUND COLORS
@@ -19,11 +27,15 @@ $nav-font-color:#122b80; //#193968;
 
 $header-color: #151d2a;
 $header-menu-color:  #eee;
+
+
 $btn-color:#1a3968;
+$btn-hover-color:#295fb6;
+
 $nav-hover-color:#dcdcdc;
-
-
-
+$nav-back-color:#e5e5e5;
+$nav-mobile-color:white;
+$nav-mobile-hover-color:#e5e5e5;
 /* ==========================================================================
   							DIMENSIONS
    ========================================================================== */

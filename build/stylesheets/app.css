@@ -1,0 +1,3349 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*!
+  Ionicons, v1.5.2
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+*/
+@font-face {
+  font-family: "Ionicons";
+  src: url("..../stylesheets/fonts/ionicons.eot?v=1.5.2");
+  src: url("..../stylesheets/fonts/ionicons.eot?v=1.5.2#iefix") format("embedded-opentype"), url("../stylesheets/fonts/ionicons.ttf?v=1.5.2") format("truetype"), url("../stylesheets/fonts/ionicons.woff?v=1.5.2") format("woff"), url("../stylesheets/fonts/ionicons.svg?v=1.5.2#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 9, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion, .ion-loading-a, .ion-loading-b, .ion-loading-c, .ion-loading-d, .ion-looping, .ion-refreshing, .ion-ios7-reloading, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-contact:before, .ion-android-alarm:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down-left:before, .ion-android-arrow-down-right:before, .ion-android-arrow-forward:before, .ion-android-arrow-up-left:before, .ion-android-arrow-up-right:before, .ion-android-battery:before, .ion-android-book:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-chat:before, .ion-android-checkmark:before, .ion-android-clock:before, .ion-android-close:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-data:before, .ion-android-developer:before, .ion-android-display:before, .ion-android-download:before, .ion-android-drawer:before, .ion-android-dropdown:before, .ion-android-earth:before, .ion-android-folder:before, .ion-android-forums:before, .ion-android-friends:before, .ion-android-hand:before, .ion-android-image:before, .ion-android-inbox:before, .ion-android-information:before, .ion-android-keypad:before, .ion-android-lightbulb:before, .ion-android-locate:before, .ion-android-location:before, .ion-android-mail:before, .ion-android-microphone:before, .ion-android-mixer:before, .ion-android-more:before, .ion-android-note:before, .ion-android-playstore:before, .ion-android-printer:before, .ion-android-promotion:before, .ion-android-reminder:before, .ion-android-remove:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-social:before, .ion-android-social-user:before, .ion-android-sort:before, .ion-android-stair-drawer:before, .ion-android-star:before, .ion-android-stopwatch:before, .ion-android-storage:before, .ion-android-system-back:before, .ion-android-system-home:before, .ion-android-system-windows:before, .ion-android-timer:before, .ion-android-trash:before, .ion-android-user-menu:before, .ion-android-volume:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-flask:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-game-controller-a:before, .ion-game-controller-b:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-icon-social-google-plus:before, .ion-icon-social-google-plus-outline:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios7-alarm:before, .ion-ios7-alarm-outline:before, .ion-ios7-albums:before, .ion-ios7-albums-outline:before, .ion-ios7-americanfootball:before, .ion-ios7-americanfootball-outline:before, .ion-ios7-analytics:before, .ion-ios7-analytics-outline:before, .ion-ios7-arrow-back:before, .ion-ios7-arrow-down:before, .ion-ios7-arrow-forward:before, .ion-ios7-arrow-left:before, .ion-ios7-arrow-right:before, .ion-ios7-arrow-thin-down:before, .ion-ios7-arrow-thin-left:before, .ion-ios7-arrow-thin-right:before, .ion-ios7-arrow-thin-up:before, .ion-ios7-arrow-up:before, .ion-ios7-at:before, .ion-ios7-at-outline:before, .ion-ios7-barcode:before, .ion-ios7-barcode-outline:before, .ion-ios7-baseball:before, .ion-ios7-baseball-outline:before, .ion-ios7-basketball:before, .ion-ios7-basketball-outline:before, .ion-ios7-bell:before, .ion-ios7-bell-outline:before, .ion-ios7-bolt:before, .ion-ios7-bolt-outline:before, .ion-ios7-bookmarks:before, .ion-ios7-bookmarks-outline:before, .ion-ios7-box:before, .ion-ios7-box-outline:before, .ion-ios7-briefcase:before, .ion-ios7-briefcase-outline:before, .ion-ios7-browsers:before, .ion-ios7-browsers-outline:before, .ion-ios7-calculator:before, .ion-ios7-calculator-outline:before, .ion-ios7-calendar:before, .ion-ios7-calendar-outline:before, .ion-ios7-camera:before, .ion-ios7-camera-outline:before, .ion-ios7-cart:before, .ion-ios7-cart-outline:before, .ion-ios7-chatboxes:before, .ion-ios7-chatboxes-outline:before, .ion-ios7-chatbubble:before, .ion-ios7-chatbubble-outline:before, .ion-ios7-checkmark:before, .ion-ios7-checkmark-empty:before, .ion-ios7-checkmark-outline:before, .ion-ios7-circle-filled:before, .ion-ios7-circle-outline:before, .ion-ios7-clock:before, .ion-ios7-clock-outline:before, .ion-ios7-close:before, .ion-ios7-close-empty:before, .ion-ios7-close-outline:before, .ion-ios7-cloud:before, .ion-ios7-cloud-download:before, .ion-ios7-cloud-download-outline:before, .ion-ios7-cloud-outline:before, .ion-ios7-cloud-upload:before, .ion-ios7-cloud-upload-outline:before, .ion-ios7-cloudy:before, .ion-ios7-cloudy-night:before, .ion-ios7-cloudy-night-outline:before, .ion-ios7-cloudy-outline:before, .ion-ios7-cog:before, .ion-ios7-cog-outline:before, .ion-ios7-compose:before, .ion-ios7-compose-outline:before, .ion-ios7-contact:before, .ion-ios7-contact-outline:before, .ion-ios7-copy:before, .ion-ios7-copy-outline:before, .ion-ios7-download:before, .ion-ios7-download-outline:before, .ion-ios7-drag:before, .ion-ios7-email:before, .ion-ios7-email-outline:before, .ion-ios7-expand:before, .ion-ios7-eye:before, .ion-ios7-eye-outline:before, .ion-ios7-fastforward:before, .ion-ios7-fastforward-outline:before, .ion-ios7-filing:before, .ion-ios7-filing-outline:before, .ion-ios7-film:before, .ion-ios7-film-outline:before, .ion-ios7-flag:before, .ion-ios7-flag-outline:before, .ion-ios7-folder:before, .ion-ios7-folder-outline:before, .ion-ios7-football:before, .ion-ios7-football-outline:before, .ion-ios7-gear:before, .ion-ios7-gear-outline:before, .ion-ios7-glasses:before, .ion-ios7-glasses-outline:before, .ion-ios7-heart:before, .ion-ios7-heart-outline:before, .ion-ios7-help:before, .ion-ios7-help-empty:before, .ion-ios7-help-outline:before, .ion-ios7-home:before, .ion-ios7-home-outline:before, .ion-ios7-infinite:before, .ion-ios7-infinite-outline:before, .ion-ios7-information:before, .ion-ios7-information-empty:before, .ion-ios7-information-outline:before, .ion-ios7-ionic-outline:before, .ion-ios7-keypad:before, .ion-ios7-keypad-outline:before, .ion-ios7-lightbulb:before, .ion-ios7-lightbulb-outline:before, .ion-ios7-location:before, .ion-ios7-location-outline:before, .ion-ios7-locked:before, .ion-ios7-locked-outline:before, .ion-ios7-loop:before, .ion-ios7-loop-strong:before, .ion-ios7-medkit:before, .ion-ios7-medkit-outline:before, .ion-ios7-mic:before, .ion-ios7-mic-off:before, .ion-ios7-mic-outline:before, .ion-ios7-minus:before, .ion-ios7-minus-empty:before, .ion-ios7-minus-outline:before, .ion-ios7-monitor:before, .ion-ios7-monitor-outline:before, .ion-ios7-moon:before, .ion-ios7-moon-outline:before, .ion-ios7-more:before, .ion-ios7-more-outline:before, .ion-ios7-musical-note:before, .ion-ios7-musical-notes:before, .ion-ios7-navigate:before, .ion-ios7-navigate-outline:before, .ion-ios7-paper:before, .ion-ios7-paper-outline:before, .ion-ios7-paperplane:before, .ion-ios7-paperplane-outline:before, .ion-ios7-partlysunny:before, .ion-ios7-partlysunny-outline:before, .ion-ios7-pause:before, .ion-ios7-pause-outline:before, .ion-ios7-paw:before, .ion-ios7-paw-outline:before, .ion-ios7-people:before, .ion-ios7-people-outline:before, .ion-ios7-person:before, .ion-ios7-person-outline:before, .ion-ios7-personadd:before, .ion-ios7-personadd-outline:before, .ion-ios7-photos:before, .ion-ios7-photos-outline:before, .ion-ios7-pie:before, .ion-ios7-pie-outline:before, .ion-ios7-play:before, .ion-ios7-play-outline:before, .ion-ios7-plus:before, .ion-ios7-plus-empty:before, .ion-ios7-plus-outline:before, .ion-ios7-pricetag:before, .ion-ios7-pricetag-outline:before, .ion-ios7-pricetags:before, .ion-ios7-pricetags-outline:before, .ion-ios7-printer:before, .ion-ios7-printer-outline:before, .ion-ios7-pulse:before, .ion-ios7-pulse-strong:before, .ion-ios7-rainy:before, .ion-ios7-rainy-outline:before, .ion-ios7-recording:before, .ion-ios7-recording-outline:before, .ion-ios7-redo:before, .ion-ios7-redo-outline:before, .ion-ios7-refresh:before, .ion-ios7-refresh-empty:before, .ion-ios7-refresh-outline:before, .ion-ios7-reload:before, .ion-ios7-reloading:before, .ion-ios7-reverse-camera:before, .ion-ios7-reverse-camera-outline:before, .ion-ios7-rewind:before, .ion-ios7-rewind-outline:before, .ion-ios7-search:before, .ion-ios7-search-strong:before, .ion-ios7-settings:before, .ion-ios7-settings-strong:before, .ion-ios7-shrink:before, .ion-ios7-skipbackward:before, .ion-ios7-skipbackward-outline:before, .ion-ios7-skipforward:before, .ion-ios7-skipforward-outline:before, .ion-ios7-snowy:before, .ion-ios7-speedometer:before, .ion-ios7-speedometer-outline:before, .ion-ios7-star:before, .ion-ios7-star-half:before, .ion-ios7-star-outline:before, .ion-ios7-stopwatch:before, .ion-ios7-stopwatch-outline:before, .ion-ios7-sunny:before, .ion-ios7-sunny-outline:before, .ion-ios7-telephone:before, .ion-ios7-telephone-outline:before, .ion-ios7-tennisball:before, .ion-ios7-tennisball-outline:before, .ion-ios7-thunderstorm:before, .ion-ios7-thunderstorm-outline:before, .ion-ios7-time:before, .ion-ios7-time-outline:before, .ion-ios7-timer:before, .ion-ios7-timer-outline:before, .ion-ios7-toggle:before, .ion-ios7-toggle-outline:before, .ion-ios7-trash:before, .ion-ios7-trash-outline:before, .ion-ios7-undo:before, .ion-ios7-undo-outline:before, .ion-ios7-unlocked:before, .ion-ios7-unlocked-outline:before, .ion-ios7-upload:before, .ion-ios7-upload-outline:before, .ion-ios7-videocam:before, .ion-ios7-videocam-outline:before, .ion-ios7-volume-high:before, .ion-ios7-volume-low:before, .ion-ios7-wineglass:before, .ion-ios7-wineglass-outline:before, .ion-ios7-world:before, .ion-ios7-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-loading-a:before, .ion-load-b:before, .ion-loading-b:before, .ion-load-c:before, .ion-loading-c:before, .ion-load-d:before, .ion-loading-d:before, .ion-location:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-looping:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-refreshing:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before {
+  display: inline-block;
+  font-family: "Ionicons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 11, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-spin, .ion-loading-a, .ion-loading-b, .ion-loading-c, .ion-loading-d, .ion-looping, .ion-refreshing, .ion-ios7-reloading {
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear; }
+
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg); }
+  100% {
+    -moz-transform: rotate(359deg); } }
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg); } }
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg); }
+  100% {
+    -o-transform: rotate(359deg); } }
+@-ms-keyframes spin {
+  0% {
+    -ms-transform: rotate(0deg); }
+  100% {
+    -ms-transform: rotate(359deg); } }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(359deg); } }
+/* line 23, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-loading-a {
+  -webkit-animation-timing-function: steps(8, start);
+  -moz-animation-timing-function: steps(8, start);
+  animation-timing-function: steps(8, start); }
+
+/* line 25, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-alert:before {
+  content: "\f101"; }
+
+/* line 27, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-alert-circled:before {
+  content: "\f100"; }
+
+/* line 29, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-add:before {
+  content: "\f2c7"; }
+
+/* line 31, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-add-contact:before {
+  content: "\f2c6"; }
+
+/* line 33, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-alarm:before {
+  content: "\f2c8"; }
+
+/* line 35, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-archive:before {
+  content: "\f2c9"; }
+
+/* line 37, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-arrow-back:before {
+  content: "\f2ca"; }
+
+/* line 39, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-arrow-down-left:before {
+  content: "\f2cb"; }
+
+/* line 41, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-arrow-down-right:before {
+  content: "\f2cc"; }
+
+/* line 43, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-arrow-forward:before {
+  content: "\f30f"; }
+
+/* line 45, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-arrow-up-left:before {
+  content: "\f2cd"; }
+
+/* line 47, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-arrow-up-right:before {
+  content: "\f2ce"; }
+
+/* line 49, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-battery:before {
+  content: "\f2cf"; }
+
+/* line 51, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-book:before {
+  content: "\f2d0"; }
+
+/* line 53, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-calendar:before {
+  content: "\f2d1"; }
+
+/* line 55, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-call:before {
+  content: "\f2d2"; }
+
+/* line 57, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-camera:before {
+  content: "\f2d3"; }
+
+/* line 59, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-chat:before {
+  content: "\f2d4"; }
+
+/* line 61, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-checkmark:before {
+  content: "\f2d5"; }
+
+/* line 63, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-clock:before {
+  content: "\f2d6"; }
+
+/* line 65, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-close:before {
+  content: "\f2d7"; }
+
+/* line 67, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-contact:before {
+  content: "\f2d8"; }
+
+/* line 69, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-contacts:before {
+  content: "\f2d9"; }
+
+/* line 71, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-data:before {
+  content: "\f2da"; }
+
+/* line 73, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-developer:before {
+  content: "\f2db"; }
+
+/* line 75, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-display:before {
+  content: "\f2dc"; }
+
+/* line 77, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-download:before {
+  content: "\f2dd"; }
+
+/* line 79, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-drawer:before {
+  content: "\f310"; }
+
+/* line 81, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-dropdown:before {
+  content: "\f2de"; }
+
+/* line 83, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-earth:before {
+  content: "\f2df"; }
+
+/* line 85, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-folder:before {
+  content: "\f2e0"; }
+
+/* line 87, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-forums:before {
+  content: "\f2e1"; }
+
+/* line 89, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-friends:before {
+  content: "\f2e2"; }
+
+/* line 91, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-hand:before {
+  content: "\f2e3"; }
+
+/* line 93, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-image:before {
+  content: "\f2e4"; }
+
+/* line 95, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-inbox:before {
+  content: "\f2e5"; }
+
+/* line 97, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-information:before {
+  content: "\f2e6"; }
+
+/* line 99, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-keypad:before {
+  content: "\f2e7"; }
+
+/* line 101, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-lightbulb:before {
+  content: "\f2e8"; }
+
+/* line 103, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-locate:before {
+  content: "\f2e9"; }
+
+/* line 105, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-location:before {
+  content: "\f2ea"; }
+
+/* line 107, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-mail:before {
+  content: "\f2eb"; }
+
+/* line 109, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-microphone:before {
+  content: "\f2ec"; }
+
+/* line 111, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-mixer:before {
+  content: "\f2ed"; }
+
+/* line 113, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-more:before {
+  content: "\f2ee"; }
+
+/* line 115, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-note:before {
+  content: "\f2ef"; }
+
+/* line 117, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-playstore:before {
+  content: "\f2f0"; }
+
+/* line 119, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-printer:before {
+  content: "\f2f1"; }
+
+/* line 121, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-promotion:before {
+  content: "\f2f2"; }
+
+/* line 123, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-reminder:before {
+  content: "\f2f3"; }
+
+/* line 125, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-remove:before {
+  content: "\f2f4"; }
+
+/* line 127, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-search:before {
+  content: "\f2f5"; }
+
+/* line 129, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-send:before {
+  content: "\f2f6"; }
+
+/* line 131, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-settings:before {
+  content: "\f2f7"; }
+
+/* line 133, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-share:before {
+  content: "\f2f8"; }
+
+/* line 135, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-social:before {
+  content: "\f2fa"; }
+
+/* line 137, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-social-user:before {
+  content: "\f2f9"; }
+
+/* line 139, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-sort:before {
+  content: "\f2fb"; }
+
+/* line 141, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-stair-drawer:before {
+  content: "\f311"; }
+
+/* line 143, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-star:before {
+  content: "\f2fc"; }
+
+/* line 145, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-stopwatch:before {
+  content: "\f2fd"; }
+
+/* line 147, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-storage:before {
+  content: "\f2fe"; }
+
+/* line 149, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-system-back:before {
+  content: "\f2ff"; }
+
+/* line 151, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-system-home:before {
+  content: "\f300"; }
+
+/* line 153, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-system-windows:before {
+  content: "\f301"; }
+
+/* line 155, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-timer:before {
+  content: "\f302"; }
+
+/* line 157, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-trash:before {
+  content: "\f303"; }
+
+/* line 159, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-user-menu:before {
+  content: "\f312"; }
+
+/* line 161, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-volume:before {
+  content: "\f304"; }
+
+/* line 163, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-android-wifi:before {
+  content: "\f305"; }
+
+/* line 165, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-aperture:before {
+  content: "\f313"; }
+
+/* line 167, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-archive:before {
+  content: "\f102"; }
+
+/* line 169, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-down-a:before {
+  content: "\f103"; }
+
+/* line 171, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-down-b:before {
+  content: "\f104"; }
+
+/* line 173, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-down-c:before {
+  content: "\f105"; }
+
+/* line 175, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-expand:before {
+  content: "\f25e"; }
+
+/* line 177, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-graph-down-left:before {
+  content: "\f25f"; }
+
+/* line 179, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-graph-down-right:before {
+  content: "\f260"; }
+
+/* line 181, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-graph-up-left:before {
+  content: "\f261"; }
+
+/* line 183, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-graph-up-right:before {
+  content: "\f262"; }
+
+/* line 185, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-left-a:before {
+  content: "\f106"; }
+
+/* line 187, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-left-b:before {
+  content: "\f107"; }
+
+/* line 189, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-left-c:before {
+  content: "\f108"; }
+
+/* line 191, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-move:before {
+  content: "\f263"; }
+
+/* line 193, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-resize:before {
+  content: "\f264"; }
+
+/* line 195, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-return-left:before {
+  content: "\f265"; }
+
+/* line 197, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-return-right:before {
+  content: "\f266"; }
+
+/* line 199, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-right-a:before {
+  content: "\f109"; }
+
+/* line 201, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-right-b:before {
+  content: "\f10a"; }
+
+/* line 203, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-right-c:before {
+  content: "\f10b"; }
+
+/* line 205, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-shrink:before {
+  content: "\f267"; }
+
+/* line 207, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-swap:before {
+  content: "\f268"; }
+
+/* line 209, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-up-a:before {
+  content: "\f10c"; }
+
+/* line 211, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-up-b:before {
+  content: "\f10d"; }
+
+/* line 213, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-arrow-up-c:before {
+  content: "\f10e"; }
+
+/* line 215, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-asterisk:before {
+  content: "\f314"; }
+
+/* line 217, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-at:before {
+  content: "\f10f"; }
+
+/* line 219, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-bag:before {
+  content: "\f110"; }
+
+/* line 221, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-battery-charging:before {
+  content: "\f111"; }
+
+/* line 223, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-battery-empty:before {
+  content: "\f112"; }
+
+/* line 225, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-battery-full:before {
+  content: "\f113"; }
+
+/* line 227, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-battery-half:before {
+  content: "\f114"; }
+
+/* line 229, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-battery-low:before {
+  content: "\f115"; }
+
+/* line 231, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-beaker:before {
+  content: "\f269"; }
+
+/* line 233, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-beer:before {
+  content: "\f26a"; }
+
+/* line 235, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-bluetooth:before {
+  content: "\f116"; }
+
+/* line 237, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-bonfire:before {
+  content: "\f315"; }
+
+/* line 239, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-bookmark:before {
+  content: "\f26b"; }
+
+/* line 241, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-briefcase:before {
+  content: "\f26c"; }
+
+/* line 243, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-bug:before {
+  content: "\f2be"; }
+
+/* line 245, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-calculator:before {
+  content: "\f26d"; }
+
+/* line 247, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-calendar:before {
+  content: "\f117"; }
+
+/* line 249, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-camera:before {
+  content: "\f118"; }
+
+/* line 251, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-card:before {
+  content: "\f119"; }
+
+/* line 253, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-cash:before {
+  content: "\f316"; }
+
+/* line 255, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chatbox:before {
+  content: "\f11b"; }
+
+/* line 257, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chatbox-working:before {
+  content: "\f11a"; }
+
+/* line 259, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chatboxes:before {
+  content: "\f11c"; }
+
+/* line 261, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chatbubble:before {
+  content: "\f11e"; }
+
+/* line 263, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chatbubble-working:before {
+  content: "\f11d"; }
+
+/* line 265, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chatbubbles:before {
+  content: "\f11f"; }
+
+/* line 267, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-checkmark:before {
+  content: "\f122"; }
+
+/* line 269, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-checkmark-circled:before {
+  content: "\f120"; }
+
+/* line 271, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-checkmark-round:before {
+  content: "\f121"; }
+
+/* line 273, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chevron-down:before {
+  content: "\f123"; }
+
+/* line 275, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chevron-left:before {
+  content: "\f124"; }
+
+/* line 277, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chevron-right:before {
+  content: "\f125"; }
+
+/* line 279, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-chevron-up:before {
+  content: "\f126"; }
+
+/* line 281, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-clipboard:before {
+  content: "\f127"; }
+
+/* line 283, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-clock:before {
+  content: "\f26e"; }
+
+/* line 285, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-close:before {
+  content: "\f12a"; }
+
+/* line 287, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-close-circled:before {
+  content: "\f128"; }
+
+/* line 289, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-close-round:before {
+  content: "\f129"; }
+
+/* line 291, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-closed-captioning:before {
+  content: "\f317"; }
+
+/* line 293, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-cloud:before {
+  content: "\f12b"; }
+
+/* line 295, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-code:before {
+  content: "\f271"; }
+
+/* line 297, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-code-download:before {
+  content: "\f26f"; }
+
+/* line 299, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-code-working:before {
+  content: "\f270"; }
+
+/* line 301, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-coffee:before {
+  content: "\f272"; }
+
+/* line 303, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-compass:before {
+  content: "\f273"; }
+
+/* line 305, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-compose:before {
+  content: "\f12c"; }
+
+/* line 307, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-connection-bars:before {
+  content: "\f274"; }
+
+/* line 309, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-contrast:before {
+  content: "\f275"; }
+
+/* line 311, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-cube:before {
+  content: "\f318"; }
+
+/* line 313, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-disc:before {
+  content: "\f12d"; }
+
+/* line 315, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-document:before {
+  content: "\f12f"; }
+
+/* line 317, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-document-text:before {
+  content: "\f12e"; }
+
+/* line 319, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-drag:before {
+  content: "\f130"; }
+
+/* line 321, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-earth:before {
+  content: "\f276"; }
+
+/* line 323, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-edit:before {
+  content: "\f2bf"; }
+
+/* line 325, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-egg:before {
+  content: "\f277"; }
+
+/* line 327, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-eject:before {
+  content: "\f131"; }
+
+/* line 329, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-email:before {
+  content: "\f132"; }
+
+/* line 331, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-eye:before {
+  content: "\f133"; }
+
+/* line 333, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-eye-disabled:before {
+  content: "\f306"; }
+
+/* line 335, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-female:before {
+  content: "\f278"; }
+
+/* line 337, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-filing:before {
+  content: "\f134"; }
+
+/* line 339, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-film-marker:before {
+  content: "\f135"; }
+
+/* line 341, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-fireball:before {
+  content: "\f319"; }
+
+/* line 343, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-flag:before {
+  content: "\f279"; }
+
+/* line 345, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-flame:before {
+  content: "\f31a"; }
+
+/* line 347, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-flash:before {
+  content: "\f137"; }
+
+/* line 349, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-flash-off:before {
+  content: "\f136"; }
+
+/* line 351, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-flask:before {
+  content: "\f138"; }
+
+/* line 353, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-folder:before {
+  content: "\f139"; }
+
+/* line 355, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-fork:before {
+  content: "\f27a"; }
+
+/* line 357, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-fork-repo:before {
+  content: "\f2c0"; }
+
+/* line 359, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-forward:before {
+  content: "\f13a"; }
+
+/* line 361, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-funnel:before {
+  content: "\f31b"; }
+
+/* line 363, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-game-controller-a:before {
+  content: "\f13b"; }
+
+/* line 365, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-game-controller-b:before {
+  content: "\f13c"; }
+
+/* line 367, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-gear-a:before {
+  content: "\f13d"; }
+
+/* line 369, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-gear-b:before {
+  content: "\f13e"; }
+
+/* line 371, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-grid:before {
+  content: "\f13f"; }
+
+/* line 373, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-hammer:before {
+  content: "\f27b"; }
+
+/* line 375, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-happy:before {
+  content: "\f31c"; }
+
+/* line 377, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-headphone:before {
+  content: "\f140"; }
+
+/* line 379, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-heart:before {
+  content: "\f141"; }
+
+/* line 381, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-heart-broken:before {
+  content: "\f31d"; }
+
+/* line 383, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-help:before {
+  content: "\f143"; }
+
+/* line 385, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-help-buoy:before {
+  content: "\f27c"; }
+
+/* line 387, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-help-circled:before {
+  content: "\f142"; }
+
+/* line 389, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-home:before {
+  content: "\f144"; }
+
+/* line 391, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-icecream:before {
+  content: "\f27d"; }
+
+/* line 393, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-icon-social-google-plus:before {
+  content: "\f146"; }
+
+/* line 395, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-icon-social-google-plus-outline:before {
+  content: "\f145"; }
+
+/* line 397, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-image:before {
+  content: "\f147"; }
+
+/* line 399, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-images:before {
+  content: "\f148"; }
+
+/* line 401, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-information:before {
+  content: "\f14a"; }
+
+/* line 403, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-information-circled:before {
+  content: "\f149"; }
+
+/* line 405, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ionic:before {
+  content: "\f14b"; }
+
+/* line 407, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-alarm:before {
+  content: "\f14d"; }
+
+/* line 409, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-alarm-outline:before {
+  content: "\f14c"; }
+
+/* line 411, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-albums:before {
+  content: "\f14f"; }
+
+/* line 413, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-albums-outline:before {
+  content: "\f14e"; }
+
+/* line 415, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-americanfootball:before {
+  content: "\f31f"; }
+
+/* line 417, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-americanfootball-outline:before {
+  content: "\f31e"; }
+
+/* line 419, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-analytics:before {
+  content: "\f321"; }
+
+/* line 421, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-analytics-outline:before {
+  content: "\f320"; }
+
+/* line 423, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-back:before {
+  content: "\f150"; }
+
+/* line 425, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-down:before {
+  content: "\f151"; }
+
+/* line 427, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-forward:before {
+  content: "\f152"; }
+
+/* line 429, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-left:before {
+  content: "\f153"; }
+
+/* line 431, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-right:before {
+  content: "\f154"; }
+
+/* line 433, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-thin-down:before {
+  content: "\f27e"; }
+
+/* line 435, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-thin-left:before {
+  content: "\f27f"; }
+
+/* line 437, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-thin-right:before {
+  content: "\f280"; }
+
+/* line 439, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-thin-up:before {
+  content: "\f281"; }
+
+/* line 441, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-arrow-up:before {
+  content: "\f155"; }
+
+/* line 443, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-at:before {
+  content: "\f157"; }
+
+/* line 445, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-at-outline:before {
+  content: "\f156"; }
+
+/* line 447, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-barcode:before {
+  content: "\f323"; }
+
+/* line 449, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-barcode-outline:before {
+  content: "\f322"; }
+
+/* line 451, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-baseball:before {
+  content: "\f325"; }
+
+/* line 453, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-baseball-outline:before {
+  content: "\f324"; }
+
+/* line 455, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-basketball:before {
+  content: "\f327"; }
+
+/* line 457, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-basketball-outline:before {
+  content: "\f326"; }
+
+/* line 459, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-bell:before {
+  content: "\f159"; }
+
+/* line 461, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-bell-outline:before {
+  content: "\f158"; }
+
+/* line 463, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-bolt:before {
+  content: "\f15b"; }
+
+/* line 465, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-bolt-outline:before {
+  content: "\f15a"; }
+
+/* line 467, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-bookmarks:before {
+  content: "\f15d"; }
+
+/* line 469, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-bookmarks-outline:before {
+  content: "\f15c"; }
+
+/* line 471, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-box:before {
+  content: "\f15f"; }
+
+/* line 473, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-box-outline:before {
+  content: "\f15e"; }
+
+/* line 475, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-briefcase:before {
+  content: "\f283"; }
+
+/* line 477, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-briefcase-outline:before {
+  content: "\f282"; }
+
+/* line 479, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-browsers:before {
+  content: "\f161"; }
+
+/* line 481, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-browsers-outline:before {
+  content: "\f160"; }
+
+/* line 483, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-calculator:before {
+  content: "\f285"; }
+
+/* line 485, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-calculator-outline:before {
+  content: "\f284"; }
+
+/* line 487, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-calendar:before {
+  content: "\f163"; }
+
+/* line 489, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-calendar-outline:before {
+  content: "\f162"; }
+
+/* line 491, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-camera:before {
+  content: "\f165"; }
+
+/* line 493, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-camera-outline:before {
+  content: "\f164"; }
+
+/* line 495, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cart:before {
+  content: "\f167"; }
+
+/* line 497, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cart-outline:before {
+  content: "\f166"; }
+
+/* line 499, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-chatboxes:before {
+  content: "\f169"; }
+
+/* line 501, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-chatboxes-outline:before {
+  content: "\f168"; }
+
+/* line 503, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-chatbubble:before {
+  content: "\f16b"; }
+
+/* line 505, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-chatbubble-outline:before {
+  content: "\f16a"; }
+
+/* line 507, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-checkmark:before {
+  content: "\f16e"; }
+
+/* line 509, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-checkmark-empty:before {
+  content: "\f16c"; }
+
+/* line 511, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-checkmark-outline:before {
+  content: "\f16d"; }
+
+/* line 513, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-circle-filled:before {
+  content: "\f16f"; }
+
+/* line 515, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-circle-outline:before {
+  content: "\f170"; }
+
+/* line 517, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-clock:before {
+  content: "\f172"; }
+
+/* line 519, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-clock-outline:before {
+  content: "\f171"; }
+
+/* line 521, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-close:before {
+  content: "\f2bc"; }
+
+/* line 523, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-close-empty:before {
+  content: "\f2bd"; }
+
+/* line 525, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-close-outline:before {
+  content: "\f2bb"; }
+
+/* line 527, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloud:before {
+  content: "\f178"; }
+
+/* line 529, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloud-download:before {
+  content: "\f174"; }
+
+/* line 531, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloud-download-outline:before {
+  content: "\f173"; }
+
+/* line 533, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloud-outline:before {
+  content: "\f175"; }
+
+/* line 535, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloud-upload:before {
+  content: "\f177"; }
+
+/* line 537, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloud-upload-outline:before {
+  content: "\f176"; }
+
+/* line 539, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloudy:before {
+  content: "\f17a"; }
+
+/* line 541, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloudy-night:before {
+  content: "\f308"; }
+
+/* line 543, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloudy-night-outline:before {
+  content: "\f307"; }
+
+/* line 545, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cloudy-outline:before {
+  content: "\f179"; }
+
+/* line 547, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cog:before {
+  content: "\f17c"; }
+
+/* line 549, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-cog-outline:before {
+  content: "\f17b"; }
+
+/* line 551, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-compose:before {
+  content: "\f17e"; }
+
+/* line 553, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-compose-outline:before {
+  content: "\f17d"; }
+
+/* line 555, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-contact:before {
+  content: "\f180"; }
+
+/* line 557, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-contact-outline:before {
+  content: "\f17f"; }
+
+/* line 559, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-copy:before {
+  content: "\f182"; }
+
+/* line 561, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-copy-outline:before {
+  content: "\f181"; }
+
+/* line 563, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-download:before {
+  content: "\f184"; }
+
+/* line 565, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-download-outline:before {
+  content: "\f183"; }
+
+/* line 567, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-drag:before {
+  content: "\f185"; }
+
+/* line 569, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-email:before {
+  content: "\f187"; }
+
+/* line 571, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-email-outline:before {
+  content: "\f186"; }
+
+/* line 573, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-expand:before {
+  content: "\f30d"; }
+
+/* line 575, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-eye:before {
+  content: "\f189"; }
+
+/* line 577, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-eye-outline:before {
+  content: "\f188"; }
+
+/* line 579, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-fastforward:before {
+  content: "\f18b"; }
+
+/* line 581, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-fastforward-outline:before {
+  content: "\f18a"; }
+
+/* line 583, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-filing:before {
+  content: "\f18d"; }
+
+/* line 585, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-filing-outline:before {
+  content: "\f18c"; }
+
+/* line 587, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-film:before {
+  content: "\f18f"; }
+
+/* line 589, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-film-outline:before {
+  content: "\f18e"; }
+
+/* line 591, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-flag:before {
+  content: "\f191"; }
+
+/* line 593, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-flag-outline:before {
+  content: "\f190"; }
+
+/* line 595, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-folder:before {
+  content: "\f193"; }
+
+/* line 597, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-folder-outline:before {
+  content: "\f192"; }
+
+/* line 599, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-football:before {
+  content: "\f329"; }
+
+/* line 601, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-football-outline:before {
+  content: "\f328"; }
+
+/* line 603, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-gear:before {
+  content: "\f195"; }
+
+/* line 605, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-gear-outline:before {
+  content: "\f194"; }
+
+/* line 607, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-glasses:before {
+  content: "\f197"; }
+
+/* line 609, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-glasses-outline:before {
+  content: "\f196"; }
+
+/* line 611, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-heart:before {
+  content: "\f199"; }
+
+/* line 613, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-heart-outline:before {
+  content: "\f198"; }
+
+/* line 615, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-help:before {
+  content: "\f19c"; }
+
+/* line 617, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-help-empty:before {
+  content: "\f19a"; }
+
+/* line 619, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-help-outline:before {
+  content: "\f19b"; }
+
+/* line 621, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-home:before {
+  content: "\f32b"; }
+
+/* line 623, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-home-outline:before {
+  content: "\f32a"; }
+
+/* line 625, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-infinite:before {
+  content: "\f19e"; }
+
+/* line 627, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-infinite-outline:before {
+  content: "\f19d"; }
+
+/* line 629, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-information:before {
+  content: "\f1a1"; }
+
+/* line 631, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-information-empty:before {
+  content: "\f19f"; }
+
+/* line 633, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-information-outline:before {
+  content: "\f1a0"; }
+
+/* line 635, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-ionic-outline:before {
+  content: "\f1a2"; }
+
+/* line 637, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-keypad:before {
+  content: "\f1a4"; }
+
+/* line 639, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-keypad-outline:before {
+  content: "\f1a3"; }
+
+/* line 641, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-lightbulb:before {
+  content: "\f287"; }
+
+/* line 643, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-lightbulb-outline:before {
+  content: "\f286"; }
+
+/* line 645, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-location:before {
+  content: "\f1a6"; }
+
+/* line 647, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-location-outline:before {
+  content: "\f1a5"; }
+
+/* line 649, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-locked:before {
+  content: "\f1a8"; }
+
+/* line 651, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-locked-outline:before {
+  content: "\f1a7"; }
+
+/* line 653, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-loop:before {
+  content: "\f32d"; }
+
+/* line 655, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-loop-strong:before {
+  content: "\f32c"; }
+
+/* line 657, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-medkit:before {
+  content: "\f289"; }
+
+/* line 659, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-medkit-outline:before {
+  content: "\f288"; }
+
+/* line 661, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-mic:before {
+  content: "\f1ab"; }
+
+/* line 663, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-mic-off:before {
+  content: "\f1a9"; }
+
+/* line 665, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-mic-outline:before {
+  content: "\f1aa"; }
+
+/* line 667, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-minus:before {
+  content: "\f1ae"; }
+
+/* line 669, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-minus-empty:before {
+  content: "\f1ac"; }
+
+/* line 671, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-minus-outline:before {
+  content: "\f1ad"; }
+
+/* line 673, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-monitor:before {
+  content: "\f1b0"; }
+
+/* line 675, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-monitor-outline:before {
+  content: "\f1af"; }
+
+/* line 677, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-moon:before {
+  content: "\f1b2"; }
+
+/* line 679, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-moon-outline:before {
+  content: "\f1b1"; }
+
+/* line 681, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-more:before {
+  content: "\f1b4"; }
+
+/* line 683, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-more-outline:before {
+  content: "\f1b3"; }
+
+/* line 685, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-musical-note:before {
+  content: "\f1b5"; }
+
+/* line 687, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-musical-notes:before {
+  content: "\f1b6"; }
+
+/* line 689, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-navigate:before {
+  content: "\f1b8"; }
+
+/* line 691, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-navigate-outline:before {
+  content: "\f1b7"; }
+
+/* line 693, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-paper:before {
+  content: "\f32f"; }
+
+/* line 695, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-paper-outline:before {
+  content: "\f32e"; }
+
+/* line 697, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-paperplane:before {
+  content: "\f1ba"; }
+
+/* line 699, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-paperplane-outline:before {
+  content: "\f1b9"; }
+
+/* line 701, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-partlysunny:before {
+  content: "\f1bc"; }
+
+/* line 703, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-partlysunny-outline:before {
+  content: "\f1bb"; }
+
+/* line 705, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pause:before {
+  content: "\f1be"; }
+
+/* line 707, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pause-outline:before {
+  content: "\f1bd"; }
+
+/* line 709, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-paw:before {
+  content: "\f331"; }
+
+/* line 711, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-paw-outline:before {
+  content: "\f330"; }
+
+/* line 713, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-people:before {
+  content: "\f1c0"; }
+
+/* line 715, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-people-outline:before {
+  content: "\f1bf"; }
+
+/* line 717, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-person:before {
+  content: "\f1c2"; }
+
+/* line 719, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-person-outline:before {
+  content: "\f1c1"; }
+
+/* line 721, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-personadd:before {
+  content: "\f1c4"; }
+
+/* line 723, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-personadd-outline:before {
+  content: "\f1c3"; }
+
+/* line 725, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-photos:before {
+  content: "\f1c6"; }
+
+/* line 727, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-photos-outline:before {
+  content: "\f1c5"; }
+
+/* line 729, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pie:before {
+  content: "\f28b"; }
+
+/* line 731, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pie-outline:before {
+  content: "\f28a"; }
+
+/* line 733, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-play:before {
+  content: "\f1c8"; }
+
+/* line 735, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-play-outline:before {
+  content: "\f1c7"; }
+
+/* line 737, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-plus:before {
+  content: "\f1cb"; }
+
+/* line 739, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-plus-empty:before {
+  content: "\f1c9"; }
+
+/* line 741, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-plus-outline:before {
+  content: "\f1ca"; }
+
+/* line 743, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pricetag:before {
+  content: "\f28d"; }
+
+/* line 745, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pricetag-outline:before {
+  content: "\f28c"; }
+
+/* line 747, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pricetags:before {
+  content: "\f333"; }
+
+/* line 749, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pricetags-outline:before {
+  content: "\f332"; }
+
+/* line 751, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-printer:before {
+  content: "\f1cd"; }
+
+/* line 753, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-printer-outline:before {
+  content: "\f1cc"; }
+
+/* line 755, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pulse:before {
+  content: "\f335"; }
+
+/* line 757, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-pulse-strong:before {
+  content: "\f334"; }
+
+/* line 759, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-rainy:before {
+  content: "\f1cf"; }
+
+/* line 761, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-rainy-outline:before {
+  content: "\f1ce"; }
+
+/* line 763, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-recording:before {
+  content: "\f1d1"; }
+
+/* line 765, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-recording-outline:before {
+  content: "\f1d0"; }
+
+/* line 767, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-redo:before {
+  content: "\f1d3"; }
+
+/* line 769, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-redo-outline:before {
+  content: "\f1d2"; }
+
+/* line 771, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-refresh:before {
+  content: "\f1d6"; }
+
+/* line 773, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-refresh-empty:before {
+  content: "\f1d4"; }
+
+/* line 775, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-refresh-outline:before {
+  content: "\f1d5"; }
+
+/* line 777, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-reload:before, .ion-ios7-reloading:before {
+  content: "\f28e"; }
+
+/* line 779, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-reverse-camera:before {
+  content: "\f337"; }
+
+/* line 781, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-reverse-camera-outline:before {
+  content: "\f336"; }
+
+/* line 783, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-rewind:before {
+  content: "\f1d8"; }
+
+/* line 785, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-rewind-outline:before {
+  content: "\f1d7"; }
+
+/* line 787, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-search:before {
+  content: "\f1da"; }
+
+/* line 789, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-search-strong:before {
+  content: "\f1d9"; }
+
+/* line 791, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-settings:before {
+  content: "\f339"; }
+
+/* line 793, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-settings-strong:before {
+  content: "\f338"; }
+
+/* line 795, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-shrink:before {
+  content: "\f30e"; }
+
+/* line 797, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-skipbackward:before {
+  content: "\f1dc"; }
+
+/* line 799, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-skipbackward-outline:before {
+  content: "\f1db"; }
+
+/* line 801, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-skipforward:before {
+  content: "\f1de"; }
+
+/* line 803, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-skipforward-outline:before {
+  content: "\f1dd"; }
+
+/* line 805, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-snowy:before {
+  content: "\f309"; }
+
+/* line 807, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-speedometer:before {
+  content: "\f290"; }
+
+/* line 809, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-speedometer-outline:before {
+  content: "\f28f"; }
+
+/* line 811, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-star:before {
+  content: "\f1e0"; }
+
+/* line 813, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-star-half:before {
+  content: "\f33a"; }
+
+/* line 815, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-star-outline:before {
+  content: "\f1df"; }
+
+/* line 817, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-stopwatch:before {
+  content: "\f1e2"; }
+
+/* line 819, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-stopwatch-outline:before {
+  content: "\f1e1"; }
+
+/* line 821, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-sunny:before {
+  content: "\f1e4"; }
+
+/* line 823, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-sunny-outline:before {
+  content: "\f1e3"; }
+
+/* line 825, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-telephone:before {
+  content: "\f1e6"; }
+
+/* line 827, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-telephone-outline:before {
+  content: "\f1e5"; }
+
+/* line 829, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-tennisball:before {
+  content: "\f33c"; }
+
+/* line 831, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-tennisball-outline:before {
+  content: "\f33b"; }
+
+/* line 833, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-thunderstorm:before {
+  content: "\f1e8"; }
+
+/* line 835, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-thunderstorm-outline:before {
+  content: "\f1e7"; }
+
+/* line 837, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-time:before {
+  content: "\f292"; }
+
+/* line 839, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-time-outline:before {
+  content: "\f291"; }
+
+/* line 841, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-timer:before {
+  content: "\f1ea"; }
+
+/* line 843, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-timer-outline:before {
+  content: "\f1e9"; }
+
+/* line 845, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-toggle:before {
+  content: "\f33e"; }
+
+/* line 847, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-toggle-outline:before {
+  content: "\f33d"; }
+
+/* line 849, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-trash:before {
+  content: "\f1ec"; }
+
+/* line 851, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-trash-outline:before {
+  content: "\f1eb"; }
+
+/* line 853, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-undo:before {
+  content: "\f1ee"; }
+
+/* line 855, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-undo-outline:before {
+  content: "\f1ed"; }
+
+/* line 857, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-unlocked:before {
+  content: "\f1f0"; }
+
+/* line 859, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-unlocked-outline:before {
+  content: "\f1ef"; }
+
+/* line 861, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-upload:before {
+  content: "\f1f2"; }
+
+/* line 863, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-upload-outline:before {
+  content: "\f1f1"; }
+
+/* line 865, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-videocam:before {
+  content: "\f1f4"; }
+
+/* line 867, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-videocam-outline:before {
+  content: "\f1f3"; }
+
+/* line 869, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-volume-high:before {
+  content: "\f1f5"; }
+
+/* line 871, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-volume-low:before {
+  content: "\f1f6"; }
+
+/* line 873, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-wineglass:before {
+  content: "\f294"; }
+
+/* line 875, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-wineglass-outline:before {
+  content: "\f293"; }
+
+/* line 877, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-world:before {
+  content: "\f1f8"; }
+
+/* line 879, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ios7-world-outline:before {
+  content: "\f1f7"; }
+
+/* line 881, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ipad:before {
+  content: "\f1f9"; }
+
+/* line 883, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-iphone:before {
+  content: "\f1fa"; }
+
+/* line 885, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ipod:before {
+  content: "\f1fb"; }
+
+/* line 887, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-jet:before {
+  content: "\f295"; }
+
+/* line 889, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-key:before {
+  content: "\f296"; }
+
+/* line 891, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-knife:before {
+  content: "\f297"; }
+
+/* line 893, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-laptop:before {
+  content: "\f1fc"; }
+
+/* line 895, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-leaf:before {
+  content: "\f1fd"; }
+
+/* line 897, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-levels:before {
+  content: "\f298"; }
+
+/* line 899, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-lightbulb:before {
+  content: "\f299"; }
+
+/* line 901, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-link:before {
+  content: "\f1fe"; }
+
+/* line 903, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-load-a:before, .ion-loading-a:before {
+  content: "\f29a"; }
+
+/* line 905, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-load-b:before, .ion-loading-b:before {
+  content: "\f29b"; }
+
+/* line 907, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-load-c:before, .ion-loading-c:before {
+  content: "\f29c"; }
+
+/* line 909, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-load-d:before, .ion-loading-d:before {
+  content: "\f29d"; }
+
+/* line 911, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-location:before {
+  content: "\f1ff"; }
+
+/* line 913, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-locked:before {
+  content: "\f200"; }
+
+/* line 915, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-log-in:before {
+  content: "\f29e"; }
+
+/* line 917, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-log-out:before {
+  content: "\f29f"; }
+
+/* line 919, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-loop:before, .ion-looping:before {
+  content: "\f201"; }
+
+/* line 921, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-magnet:before {
+  content: "\f2a0"; }
+
+/* line 923, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-male:before {
+  content: "\f2a1"; }
+
+/* line 925, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-man:before {
+  content: "\f202"; }
+
+/* line 927, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-map:before {
+  content: "\f203"; }
+
+/* line 929, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-medkit:before {
+  content: "\f2a2"; }
+
+/* line 931, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-merge:before {
+  content: "\f33f"; }
+
+/* line 933, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-mic-a:before {
+  content: "\f204"; }
+
+/* line 935, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-mic-b:before {
+  content: "\f205"; }
+
+/* line 937, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-mic-c:before {
+  content: "\f206"; }
+
+/* line 939, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-minus:before {
+  content: "\f209"; }
+
+/* line 941, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-minus-circled:before {
+  content: "\f207"; }
+
+/* line 943, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-minus-round:before {
+  content: "\f208"; }
+
+/* line 945, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-model-s:before {
+  content: "\f2c1"; }
+
+/* line 947, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-monitor:before {
+  content: "\f20a"; }
+
+/* line 949, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-more:before {
+  content: "\f20b"; }
+
+/* line 951, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-mouse:before {
+  content: "\f340"; }
+
+/* line 953, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-music-note:before {
+  content: "\f20c"; }
+
+/* line 955, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-navicon:before {
+  content: "\f20e"; }
+
+/* line 957, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-navicon-round:before {
+  content: "\f20d"; }
+
+/* line 959, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-navigate:before {
+  content: "\f2a3"; }
+
+/* line 961, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-network:before {
+  content: "\f341"; }
+
+/* line 963, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-no-smoking:before {
+  content: "\f2c2"; }
+
+/* line 965, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-nuclear:before {
+  content: "\f2a4"; }
+
+/* line 967, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-outlet:before {
+  content: "\f342"; }
+
+/* line 969, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-paper-airplane:before {
+  content: "\f2c3"; }
+
+/* line 971, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-paperclip:before {
+  content: "\f20f"; }
+
+/* line 973, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pause:before {
+  content: "\f210"; }
+
+/* line 975, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-person:before {
+  content: "\f213"; }
+
+/* line 977, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-person-add:before {
+  content: "\f211"; }
+
+/* line 979, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-person-stalker:before {
+  content: "\f212"; }
+
+/* line 981, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pie-graph:before {
+  content: "\f2a5"; }
+
+/* line 983, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pin:before {
+  content: "\f2a6"; }
+
+/* line 985, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pinpoint:before {
+  content: "\f2a7"; }
+
+/* line 987, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pizza:before {
+  content: "\f2a8"; }
+
+/* line 989, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-plane:before {
+  content: "\f214"; }
+
+/* line 991, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-planet:before {
+  content: "\f343"; }
+
+/* line 993, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-play:before {
+  content: "\f215"; }
+
+/* line 995, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-playstation:before {
+  content: "\f30a"; }
+
+/* line 997, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-plus:before {
+  content: "\f218"; }
+
+/* line 999, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-plus-circled:before {
+  content: "\f216"; }
+
+/* line 1001, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-plus-round:before {
+  content: "\f217"; }
+
+/* line 1003, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-podium:before {
+  content: "\f344"; }
+
+/* line 1005, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pound:before {
+  content: "\f219"; }
+
+/* line 1007, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-power:before {
+  content: "\f2a9"; }
+
+/* line 1009, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pricetag:before {
+  content: "\f2aa"; }
+
+/* line 1011, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pricetags:before {
+  content: "\f2ab"; }
+
+/* line 1013, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-printer:before {
+  content: "\f21a"; }
+
+/* line 1015, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-pull-request:before {
+  content: "\f345"; }
+
+/* line 1017, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-qr-scanner:before {
+  content: "\f346"; }
+
+/* line 1019, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-quote:before {
+  content: "\f347"; }
+
+/* line 1021, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-radio-waves:before {
+  content: "\f2ac"; }
+
+/* line 1023, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-record:before {
+  content: "\f21b"; }
+
+/* line 1025, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-refresh:before, .ion-refreshing:before {
+  content: "\f21c"; }
+
+/* line 1027, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-reply:before {
+  content: "\f21e"; }
+
+/* line 1029, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-reply-all:before {
+  content: "\f21d"; }
+
+/* line 1031, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ribbon-a:before {
+  content: "\f348"; }
+
+/* line 1033, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-ribbon-b:before {
+  content: "\f349"; }
+
+/* line 1035, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-sad:before {
+  content: "\f34a"; }
+
+/* line 1037, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-scissors:before {
+  content: "\f34b"; }
+
+/* line 1039, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-search:before {
+  content: "\f21f"; }
+
+/* line 1041, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-settings:before {
+  content: "\f2ad"; }
+
+/* line 1043, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-share:before {
+  content: "\f220"; }
+
+/* line 1045, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-shuffle:before {
+  content: "\f221"; }
+
+/* line 1047, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-skip-backward:before {
+  content: "\f222"; }
+
+/* line 1049, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-skip-forward:before {
+  content: "\f223"; }
+
+/* line 1051, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-android:before {
+  content: "\f225"; }
+
+/* line 1053, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-android-outline:before {
+  content: "\f224"; }
+
+/* line 1055, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-apple:before {
+  content: "\f227"; }
+
+/* line 1057, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-apple-outline:before {
+  content: "\f226"; }
+
+/* line 1059, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-bitcoin:before {
+  content: "\f2af"; }
+
+/* line 1061, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-bitcoin-outline:before {
+  content: "\f2ae"; }
+
+/* line 1063, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-buffer:before {
+  content: "\f229"; }
+
+/* line 1065, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-buffer-outline:before {
+  content: "\f228"; }
+
+/* line 1067, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-designernews:before {
+  content: "\f22b"; }
+
+/* line 1069, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-designernews-outline:before {
+  content: "\f22a"; }
+
+/* line 1071, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-dribbble:before {
+  content: "\f22d"; }
+
+/* line 1073, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-dribbble-outline:before {
+  content: "\f22c"; }
+
+/* line 1075, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-dropbox:before {
+  content: "\f22f"; }
+
+/* line 1077, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-dropbox-outline:before {
+  content: "\f22e"; }
+
+/* line 1079, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-facebook:before {
+  content: "\f231"; }
+
+/* line 1081, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-facebook-outline:before {
+  content: "\f230"; }
+
+/* line 1083, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-foursquare:before {
+  content: "\f34d"; }
+
+/* line 1085, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-foursquare-outline:before {
+  content: "\f34c"; }
+
+/* line 1087, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-freebsd-devil:before {
+  content: "\f2c4"; }
+
+/* line 1089, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-github:before {
+  content: "\f233"; }
+
+/* line 1091, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-github-outline:before {
+  content: "\f232"; }
+
+/* line 1093, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-google:before {
+  content: "\f34f"; }
+
+/* line 1095, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-google-outline:before {
+  content: "\f34e"; }
+
+/* line 1097, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-googleplus:before {
+  content: "\f235"; }
+
+/* line 1099, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-googleplus-outline:before {
+  content: "\f234"; }
+
+/* line 1101, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-hackernews:before {
+  content: "\f237"; }
+
+/* line 1103, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-hackernews-outline:before {
+  content: "\f236"; }
+
+/* line 1105, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-instagram:before {
+  content: "\f351"; }
+
+/* line 1107, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-instagram-outline:before {
+  content: "\f350"; }
+
+/* line 1109, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-linkedin:before {
+  content: "\f239"; }
+
+/* line 1111, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-linkedin-outline:before {
+  content: "\f238"; }
+
+/* line 1113, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-pinterest:before {
+  content: "\f2b1"; }
+
+/* line 1115, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-pinterest-outline:before {
+  content: "\f2b0"; }
+
+/* line 1117, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-reddit:before {
+  content: "\f23b"; }
+
+/* line 1119, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-reddit-outline:before {
+  content: "\f23a"; }
+
+/* line 1121, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-rss:before {
+  content: "\f23d"; }
+
+/* line 1123, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-rss-outline:before {
+  content: "\f23c"; }
+
+/* line 1125, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-skype:before {
+  content: "\f23f"; }
+
+/* line 1127, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-skype-outline:before {
+  content: "\f23e"; }
+
+/* line 1129, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-tumblr:before {
+  content: "\f241"; }
+
+/* line 1131, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-tumblr-outline:before {
+  content: "\f240"; }
+
+/* line 1133, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-tux:before {
+  content: "\f2c5"; }
+
+/* line 1135, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-twitter:before {
+  content: "\f243"; }
+
+/* line 1137, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-twitter-outline:before {
+  content: "\f242"; }
+
+/* line 1139, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-usd:before {
+  content: "\f353"; }
+
+/* line 1141, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-usd-outline:before {
+  content: "\f352"; }
+
+/* line 1143, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-vimeo:before {
+  content: "\f245"; }
+
+/* line 1145, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-vimeo-outline:before {
+  content: "\f244"; }
+
+/* line 1147, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-windows:before {
+  content: "\f247"; }
+
+/* line 1149, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-windows-outline:before {
+  content: "\f246"; }
+
+/* line 1151, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-wordpress:before {
+  content: "\f249"; }
+
+/* line 1153, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-wordpress-outline:before {
+  content: "\f248"; }
+
+/* line 1155, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-yahoo:before {
+  content: "\f24b"; }
+
+/* line 1157, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-yahoo-outline:before {
+  content: "\f24a"; }
+
+/* line 1159, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-youtube:before {
+  content: "\f24d"; }
+
+/* line 1161, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-social-youtube-outline:before {
+  content: "\f24c"; }
+
+/* line 1163, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-speakerphone:before {
+  content: "\f2b2"; }
+
+/* line 1165, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-speedometer:before {
+  content: "\f2b3"; }
+
+/* line 1167, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-spoon:before {
+  content: "\f2b4"; }
+
+/* line 1169, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-star:before {
+  content: "\f24e"; }
+
+/* line 1171, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-stats-bars:before {
+  content: "\f2b5"; }
+
+/* line 1173, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-steam:before {
+  content: "\f30b"; }
+
+/* line 1175, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-stop:before {
+  content: "\f24f"; }
+
+/* line 1177, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-thermometer:before {
+  content: "\f2b6"; }
+
+/* line 1179, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-thumbsdown:before {
+  content: "\f250"; }
+
+/* line 1181, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-thumbsup:before {
+  content: "\f251"; }
+
+/* line 1183, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-toggle:before {
+  content: "\f355"; }
+
+/* line 1185, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-toggle-filled:before {
+  content: "\f354"; }
+
+/* line 1187, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-trash-a:before {
+  content: "\f252"; }
+
+/* line 1189, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-trash-b:before {
+  content: "\f253"; }
+
+/* line 1191, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-trophy:before {
+  content: "\f356"; }
+
+/* line 1193, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-umbrella:before {
+  content: "\f2b7"; }
+
+/* line 1195, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-university:before {
+  content: "\f357"; }
+
+/* line 1197, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-unlocked:before {
+  content: "\f254"; }
+
+/* line 1199, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-upload:before {
+  content: "\f255"; }
+
+/* line 1201, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-usb:before {
+  content: "\f2b8"; }
+
+/* line 1203, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-videocamera:before {
+  content: "\f256"; }
+
+/* line 1205, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-volume-high:before {
+  content: "\f257"; }
+
+/* line 1207, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-volume-low:before {
+  content: "\f258"; }
+
+/* line 1209, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-volume-medium:before {
+  content: "\f259"; }
+
+/* line 1211, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-volume-mute:before {
+  content: "\f25a"; }
+
+/* line 1213, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-wand:before {
+  content: "\f358"; }
+
+/* line 1215, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-waterdrop:before {
+  content: "\f25b"; }
+
+/* line 1217, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-wifi:before {
+  content: "\f25c"; }
+
+/* line 1219, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-wineglass:before {
+  content: "\f2b9"; }
+
+/* line 1221, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-woman:before {
+  content: "\f25d"; }
+
+/* line 1223, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-wrench:before {
+  content: "\f2ba"; }
+
+/* line 1225, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/ionicons.scss */
+.ion-xbox:before {
+  content: "\f30c"; }
+
+/* ==========================================================================
+  							FONTS
+   ========================================================================== */
+/*#1ba4fc;*/
+/* #0e67b6;*/
+/* ==========================================================================
+  							BACKGROUND COLORS
+   ========================================================================== */
+/* ==========================================================================
+  							DIMENSIONS
+   ========================================================================== */
+/* line 2, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0; }
+
+/* line 7, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+body {
+  text-align: center;
+  font-family: Georgia, serif;
+  background-color: #eee; }
+
+/* line 12, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+header {
+  margin: 0 auto; }
+  /* line 14, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+  header section {
+    margin: 0 auto;
+    max-width: 960px; }
+  /* line 18, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+  header .header-inner {
+    margin: 0 auto;
+    max-width: 960px; }
+
+/* line 25, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.head-img {
+  background: #151d2a;
+  max-height: 20px;
+  height: 100%; }
+
+/* line 30, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.site-logo {
+  float: left;
+  max-width: 65%;
+  height: 32px;
+  font: 0/0 a;
+  padding-left: .5%; }
+
+/* line 37, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.site-logo:before {
+  content: ' ';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%; }
+
+/* line 43, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.site-logo img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 278px;
+  max-height: 45px;
+  height: auto;
+  width: 100%; }
+
+/* line 51, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.desktop-link {
+  display: none !important; }
+
+/* line 54, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.mobile-link, .sub-top-link {
+  display: block; }
+
+/* line 57, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.menu-link {
+  cursor: pointer;
+  display: block;
+  background-color: #1a3968;
+  float: right;
+  padding: 8px;
+  font-size: 8px; }
+  /* line 64, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+  .menu-link a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 3px 6px;
+    border-radius: 5px; }
+
+/* line 73, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.menu-link:hover {
+  background-color: #295fb6; }
+
+/* line 77, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.menu {
+  display: none;
+  clear: both;
+  min-width: inherit;
+  float: none; }
+  /* line 82, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+  .menu ul {
+    display: inline;
+    padding: 0px;
+    border-top: 1px solid #808080; }
+    /* line 86, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .menu ul li.has-submenu > a:before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      padding: 10px;
+      color: #3cb7fc; }
+    /* line 94, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .menu ul li.blue-bar a:before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      padding: 10px;
+      color: #ffffff; }
+    /* line 102, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .menu ul li.blue-bar a {
+      background-color: #1a3968;
+      color: #ffffff;
+      /* padding: 16px;*/
+      border-radius: 0px;
+      /*  margin-left: 4px;*/ }
+    /* line 109, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .menu ul li.blue-bar a:hover {
+      background-color: #295fb6; }
+    /* line 112, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .menu ul li {
+      display: block;
+      text-align: left; }
+      /* line 115, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      .menu ul li a {
+        border-radius: 0px;
+        color: #000;
+        display: block;
+        padding: 0.8em;
+        border-bottom: 1px solid lightgray;
+        position: relative;
+        text-decoration: none;
+        background-color: white; }
+      /* line 125, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      .menu ul li a:hover {
+        background-color: #e5e5e5; }
+      /* line 128, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      .menu ul li ul.sub-menu {
+        overflow: hidden;
+        /* max-height: 0;*/
+        display: none;
+        background-color: #f4f4f4;
+        padding: 0px;
+        border: none;
+        position: relative;
+        left: auto;
+        top: auto;
+        border: none; }
+        /* line 139, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        .menu ul li ul.sub-menu li a {
+          background-color: white;
+          padding-left: 40px; }
+        /* line 143, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        .menu ul li ul.sub-menu li a:hover {
+          background-color: #e5e5e5; }
+        /* line 148, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        .menu ul li ul.sub-menu li.back-link a {
+          /*padding-left: 0.8em;*/
+          background-color: #e5e5e5; }
+
+/* line 159, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.bx-window ul {
+  list-style: none; }
+
+/* line 162, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.bx-window li {
+  list-style: none;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  opacity: 1; }
+
+/* line 169, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.bx-window img {
+  max-width: 960px;
+  max-height: 490px;
+  height: auto;
+  width: 100%; }
+
+/* line 175, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+.main_content {
+  max-width: 960px;
+  margin: 0 auto; }
+  /* line 178, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+  .main_content .content-wrapper {
+    width: 100%; }
+    /* line 180, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .main_content .content-wrapper .content {
+      float: right;
+      width: 100%; }
+    /* line 184, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .main_content .content-wrapper .entry {
+      padding: 0 10px; }
+      /* line 186, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      .main_content .content-wrapper .entry h1 {
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 10px; }
+      /* line 191, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      .main_content .content-wrapper .entry .entry-content {
+        text-align: left; }
+    /* line 195, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    .main_content .content-wrapper .sidebar {
+      display: none;
+      float: left;
+      width: 30%; }
+      /* line 199, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      .main_content .content-wrapper .sidebar ul {
+        list-style: none;
+        margin-top: 0px; }
+        /* line 202, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        .main_content .content-wrapper .sidebar ul .blue-bar > a:first-child {
+          background-color: #1a3968;
+          color: #ffffff;
+          padding: 16px;
+          border-radius: 0px; }
+        /* line 208, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        .main_content .content-wrapper .sidebar ul ul {
+          padding-left: 0px; }
+        /* line 211, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        .main_content .content-wrapper .sidebar ul a {
+          text-decoration: none;
+          display: block;
+          padding: 9px 20px;
+          text-decoration: none;
+          background-color: #d6d6d6;
+          background: rgba(0, 0, 0, 0.1);
+          color: #383838;
+          margin-bottom: 2px; }
+
+/* line 225, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+footer {
+  padding-top: 55px;
+  border-top: 2px solid #d0d0d0;
+  /* overflow: hidden;
+   margin-top: -4px;*/
+  clear: both; }
+  /* line 231, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+  footer .footer-inner {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 10px; }
+    /* line 235, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    footer .footer-inner .quick-links-menu {
+      font-size: 9px;
+      float: left;
+      position: relative;
+      margin-bottom: 3px;
+      width: 100%; }
+      /* line 241, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      footer .footer-inner .quick-links-menu ul {
+        list-style: none;
+        margin: 0 6px 0 0;
+        padding-left: 0px; }
+        /* line 245, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        footer .footer-inner .quick-links-menu ul li {
+          float: left;
+          margin-left: 3px;
+          padding-left: 3px;
+          border-left: 1px solid #666;
+          list-style: none; }
+        /* line 252, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        footer .footer-inner .quick-links-menu ul li:first-child {
+          margin-left: 0;
+          padding-left: 0;
+          border-left: 0; }
+        /* line 257, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        footer .footer-inner .quick-links-menu ul a, footer .footer-inner .quick-links-menu ul a:visited {
+          color: #00a2ff; }
+        /* line 260, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+        footer .footer-inner .quick-links-menu ul a:active, footer .footer-inner .quick-links-menu ul a:focus, footer .footer-inner .quick-links-menu ul a:hover {
+          color: #61c0fe; }
+    /* line 265, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    footer .footer-inner .copyright {
+      float: left;
+      position: relative;
+      font-size: 7px;
+      color: #5f6166;
+      text-align: left; }
+    /* line 272, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+    footer .footer-inner .explore {
+      float: left;
+      margin-top: -60px;
+      margin-left: -30px; }
+      /* line 276, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      footer .footer-inner .explore img {
+        vertical-align: middle;
+        width: 25%;
+        height: 25%; }
+      /* line 281, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_modules.scss */
+      footer .footer-inner .explore a {
+        color: #0065b8;
+        font-size: 9px;
+        font-weight: 400;
+        text-decoration: none; }
+
+@media (min-width: 960px) {
+  /* line 2, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .head-img {
+    max-height: 43px; }
+
+  /* line 5, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  header div.header-outer {
+    margin: 25px 0px;
+    border-top: 2px solid #d0d0d0;
+    border-bottom: 2px solid #d0d0d0;
+    height: 45px;
+    padding: 1px 0px 2px 0px; } }
+@media (min-width: 760px) {
+  /*NAV LINKS */
+  /* line 20, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .desktop-link {
+    display: block !important; }
+
+  /* line 23, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu-link, .mobile-link, .sub-top-link {
+    display: none !important; }
+
+  /* line 27, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu {
+    display: block;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-size: 12px;
+    float: right;
+    margin-top: -38px; }
+    /* line 36, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+    .menu ul {
+      padding: 0px;
+      margin: 0px;
+      border: 0px;
+      list-style: none;
+      position: relative;
+      display: inline-table;
+      color: #122b80; }
+      /* line 45, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+      .menu ul li.has-submenu > a:after {
+        content: ''; }
+      /* line 48, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+      .menu ul li.blue-bar a {
+        padding: 16px;
+        margin-left: 4px; }
+      /* line 54, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+      .menu ul li.blue-bar a:hover {
+        border-radius: 0px; }
+      /* line 58, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+      .menu ul li {
+        padding: 0px;
+        display: inline-block; }
+        /* line 61, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+        .menu ul li a {
+          display: block;
+          text-decoration: none;
+          padding: 12px;
+          border-radius: 5px;
+          border-bottom: 0px solid lightgray;
+          position: relative;
+          background-color: #eee; }
+        /* line 70, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+        .menu ul li a:hover {
+          background-color: #dcdcdc;
+          border-radius: 5px 5px 0 0; }
+        /* line 74, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+        .menu ul li ul.sub-menu {
+          min-width: 10em;
+          padding: 4px 0;
+          background-color: #f4f4f4;
+          border: 1px solid #CCC;
+          display: none;
+          position: absolute;
+          top: 100%;
+          min-width: 160px;
+          background-color: #dcdcdc;
+          border-radius: 0 5px 5px 5px;
+          margin-top: -4px;
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+          filter: alpha(opacity=50);
+          -moz-opacity: 0.5;
+          -khtml-opacity: 0.5;
+          opacity: 0.8; }
+          /* line 93, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+          .menu ul li ul.sub-menu li {
+            position: relative;
+            display: inherit; }
+            /* line 96, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+            .menu ul li ul.sub-menu li a {
+              height: auto;
+              text-align: left;
+              background-color: #dcdcdc;
+              padding-left: 0.8em; }
+            /* line 101, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+            .menu ul li ul.sub-menu li a:hover {
+              background-color: #c0c2c5;
+              /*color: #fff;*/
+              border-radius: 0px; }
+          /* line 104, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+          .menu ul li ul.sub-menu li.back-link {
+            display: none; }
+          /* line 107, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+          .menu ul li ul.sub-menu li.sub-back-link {
+            display: none; }
+
+  /* line 116, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu ul ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0; } }
+@media (min-width: 800px) {
+  /* line 125, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .quick-links-menu {
+    margin-left: 10px; }
+  /* line 128, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .explore {
+    margin-left: -20px;
+    float: right; }
+    /* line 131, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+    footer .footer-inner .explore a {
+      font-size: 15px !important; }
+  /* line 135, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .quick-links-menu {
+    float: none;
+    font-size: 13px !important; }
+  /* line 139, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .copyright {
+    width: auto;
+    font-size: 11px !important;
+    margin-left: 10px; } }
+@media (min-width: 760px) and (max-width: 799px) {
+  /* line 150, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu {
+    font-size: 11px; }
+
+  /* line 153, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu ul li > a {
+    padding: 11px; }
+
+  /* line 159, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .quick-links-menu {
+    margin-left: 10px; }
+  /* line 162, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .explore {
+    margin-left: -20px;
+    float: right; }
+    /* line 165, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+    footer .footer-inner .explore a {
+      font-size: 13px !important; }
+  /* line 169, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .quick-links-menu {
+    float: none;
+    font-size: 11px !important; }
+  /* line 173, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .copyright {
+    width: auto;
+    font-size: 10px !important;
+    margin-left: 10px; } }
+@media (min-width: 480px) {
+  /* line 184, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .head-img {
+    max-height: 32px; }
+
+  /* line 187, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .site-logo {
+    max-width: 100%;
+    height: 45px; }
+
+  /* line 191, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu-link {
+    padding: 12px;
+    font-size: 12px; } }
+@media (min-width: 320px) {
+  /* line 199, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .site-logo {
+    height: 38px; }
+
+  /* line 202, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  .menu-link {
+    padding: 11px;
+    font-size: 10px; }
+
+  /* line 208, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .quick-links-menu {
+    margin-left: 10px; }
+  /* line 211, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .explore {
+    margin-left: -20px; }
+    /* line 213, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+    footer .footer-inner .explore a {
+      font-size: 15px; }
+  /* line 217, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .quick-links-menu {
+    font-size: 13px; }
+  /* line 220, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .copyright {
+    font-size: 11px;
+    margin-left: 10px; } }
+/*@media (min-width: 230px) {
+		footer {
+	.footer-inner{
+	 .explore {
+	 a{
+		font-size:10px;
+		}
+		}
+		.quick-links-menu {
+	 	font-size: 9px;
+	 }
+	.copyright{
+		font-size: 7px;
+	}
+	}
+	}
+	
+
+}*/
+@media (max-width: 220px) {
+  /* line 251, /Users/sandeepgudipudi/LSF_Responsive_Web/source/stylesheets/_media-queries.scss */
+  footer .footer-inner .explore {
+    margin-left: -20px; } }

@@ -1,5 +1,5 @@
-<div class="content-wrapper"> <%= partial 'basic_content' , :locals => { :index => '/about-us.html' }%></div>
+<div class="content-wrapper"> <%= partial '/partials/basic_content' , :locals => { :data => data.about.about_us }%></div>
 
-<aside class="sidebar" id="sidebar"> <%= partial 'sidebar' , :locals => { :index => '/about-us.html' }%></aside>
+<aside class="sidebar" id="sidebar"> <%= partial '/partials/sidebar' , :locals => { :index => '/about-us.html' }%></aside>
 
-				
+				<%= current_page.path %>
