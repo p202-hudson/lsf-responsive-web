@@ -60,13 +60,13 @@
 	<div class="footer-inner">
 		<div class="explore">
 			<%= image_tag  "../images/common/bg_explore.png" , :relative => true %>
-			<a href="http://www.lonestarfunds.com/contact-us/global-offices/" >Explore Our Locations Worldwide</a>
+			<a href="contact-us/global-offices/" >Explore Our Locations Worldwide</a>
 		</div>
 		<nav class="quick-links-menu">
 		<ul>
-			<li><a href="http://www.lonestarfunds.com/privacy-policy/">Privacy Policy</a></li>
-			<li><a href="http://www.lonestarfunds.com/terms-of-use/">Terms of Use</a></li>
-			<li><a href="http://www.lonestarfunds.com/contact-us/">Contact Info</a></li>
+			<li><%= link_to 'Privacy Policy', '/privacy-policy.html',:class=>"link",:relative => true %></li>
+			<li><%= link_to 'Terms of Use', '/terms-of-use.html',:class=>"link", :relative => true %></li>
+			<li><%= link_to 'Contact Info', '/contact-us.html',:class=>"link", :relative => true %></li>
 		</ul>
 		</nav>
 		<div class="copyright">

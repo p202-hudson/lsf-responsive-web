@@ -324,12 +324,6 @@ footer {
                     padding-left: 0;
                     border-left: 0;
                 }
-                a, a:visited {
-                    color: $link-default-color;
-                }
-                a:active, a:focus, a:hover {
-                  color: #61c0fe;
-                }
             }
         }
         .copyright {
@@ -363,3 +357,12 @@ footer {
 font-size: 0.7em;
 margin-bottom: 5px;
 }
+
+
+
+  a.link, a.link:visited {
+                    color: $link-default-color;
+                }
+                a.link:active, a.link:focus, a.link:hover {
+                  color: $link-hover-color;
+                }
