@@ -1,0 +1,91 @@
+{
+  "links": [
+    {
+      "sub_menu": [
+        {
+          "link": "../about-us/our-business.html", 
+          "name": "Investment Approach"
+        }, 
+        {
+          "link": "../about-us/competitive-advantages.html", 
+          "name": "Competitive Advantages"
+        }, 
+        {
+          "link": "../about-us/history.html", 
+          "name": "History"
+        }, 
+        {
+          "link": "../about-us/leadership.html", 
+          "name": "Leadership"
+        }, 
+        {
+          "link": "../about-us/lstarcapital.html", 
+          "name": "LStar Capital"
+        }
+      ], 
+      "link": "/about-us.html", 
+      "name": "About Lone Star", 
+      "mobile_name": "About",
+      "list_index":"0"
+    }, 
+    {
+      "sub_menu": [
+        {
+          "link": "../funds-raised/capital-growth.html", 
+          "name": "Capital Raised"
+        },
+         {
+          "link": "../funds-raised/capital-growth/lone-star-fund-ix.html", 
+          "name": "Lone Star Fund IX",
+          "ignore_main":"true"
+        },
+         {
+          "link": "../funds-raised/capital-growth/lone-star-real-estate-fund-iii.html", 
+          "name": "Lone Star Real Estate Fund III",
+          "ignore_main":"true"
+        }
+      ], 
+      "link": "/funds-raised.html", 
+      "name": "The Funds", 
+      "mobile_name": "Funds",
+      "list_index":"1"
+    }, 
+    {
+      "sub_menu": [
+        {
+          "link": "../asset-management/benefits-of-dedicated-asset-management.html", 
+          "name": "Benefits of Dedicated Asset Management"
+        }, 
+        {
+          "link": "../asset-management/specialty-management-firms.html", 
+          "name": "Specialty Management Firms"
+        }
+      ], 
+      "link": "/asset-management.html", 
+      "name": "Asset Management", 
+      "mobile_name": "Assets",
+      "list_index":"2"
+    }, 
+    {
+      "sub_menu": [
+        {
+          "link": "../contact-us/global-offices.html", 
+          "name": "Global Offices"
+        }
+      ], 
+      "link": "/contact-us.html", 
+      "name": "Contact Info", 
+      "mobile_name": "Contact"
+      ,
+      "list_index":"3"
+    }, 
+    {
+      "link": "/login.html", 
+      "is_last": "true", 
+      "name": "Partner Login", 
+      "mobile_name": "Partner Login"
+      ,
+      "list_index":"4"
+    }
+  ]
+}

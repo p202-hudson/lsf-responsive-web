@@ -35,13 +35,14 @@
 						<%=link_to links.mobile_name,'#',:class=>"mobile-link ion-chevron-right"%>
 						<% if links.sub_menu %>
 							<ul class="sub-menu">
-							     <li class="back-link"><a>Back</a></li>
+							     <li class="back-link"><a class="ion-chevron-left">Back</a></li>
 							    <li class="sub-top-link"><%=link_to links.name,links.link%></li>
 								<% links.sub_menu.each do |sub_link| %>
-									<li class="sub-back-link"><a>Back</a></li>
+									<% if !sub_link.ignore_main %>
 									<li>   
  										<%=link_to sub_link.name,sub_link.link%>
 									</li>
+									<% end %>
 								<% end %>
 							</ul>
 						<% end %>
