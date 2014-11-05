@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="http://www.lonestarfunds.com/wp-content/themes/lonestarfunds/_ui/images/common/favicon.ico">
     
     <%= stylesheet_link_tag "app" , :relative => true %>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <%= javascript_include_tag  "vendor/jquery.min.js" , :relative => true %>
     <%= javascript_include_tag  "main" , :relative => true %>
     
   </head>
@@ -22,7 +23,7 @@
 <div class="main">
 	<header>
 	  <div class="header-outer">
-	  	<div class="header-inner">
+	  <!--	<div class="header-inner"> -->
 		<div class="site-logo">
     		<a href="/">   <%= image_tag  "../images/common/lsf-logo.png" , :relative => true %></a>      
 		</div> 
@@ -31,7 +32,11 @@
 			<ul>
 				<% data.nav.links.each do |links| %>
 					<li class="<% if links.sub_menu %>has-submenu<% end %> <% if links.is_last %>blue-bar<% end %>">
-						<%=link_to links.name,links.link,:class=>"desktop-link",:relative=> true%>
+						<% if links.is_last %>
+							 <%=link_to links.name,links.link,:class=>"desktop-link"%> 
+						<%else%> 
+							<%=link_to links.name,links.link,:class=>"desktop-link",:relative=> true%>
+						<% end %>
 						<%=link_to links.mobile_name,'#',:class=>"mobile-link ion-chevron-right"%>
 						<% if links.sub_menu %>
 							<ul class="sub-menu">
@@ -50,7 +55,7 @@
 				<% end %>
 			</ul>
 		</nav>
-	   </div>	
+	  <!-- </div>	 -->
 	   </div>
 	</header>
 	<section class="main_content" role="main">

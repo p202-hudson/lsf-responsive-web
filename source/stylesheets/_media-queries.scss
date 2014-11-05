@@ -2,11 +2,14 @@
 	.head-img{
 		max-height:43px;
 	}
- header div.header-outer{ 
-		margin: 25px 0px;
+ header {
+ .header-outer{ 
 		border-top: 2px solid #d0d0d0;
 		border-bottom: 2px solid #d0d0d0;
 		padding: 1px 0px 2px 0px;
+		margin: 25px auto;
+		max-width: $default-site-width;
+	}
 	}
 	
 	.main_content {
@@ -18,9 +21,9 @@
 	}
 	
 	footer {
-	 border-top: 2px solid #d0d0d0;
+	/* border-top: 2px solid #d0d0d0;
    overflow: hidden;
-    margin-top: -4px;
+    margin-top: -4px;*/
 	}
 	
 	/*SCREEN SPECIFIC*/
@@ -57,6 +60,7 @@
 
 .menu {
     display: block;
+    width: auto;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
@@ -80,11 +84,11 @@
          li.blue-bar a {
 
             padding: 16px;
-
+		  border-radius:0px;
            margin-left: 4px;
         }
        li.blue-bar a:hover {
-
+			 padding: 16px;
            border-radius:0px;
         }
         li {
@@ -97,13 +101,14 @@
                 border-radius: 5px;
                 border-bottom: 0px solid lightgray;
                 position: relative;
-               	background-color: $header-menu-color;
+               	/*background-color: $header-menu-color;*/
             }
             a:hover {
                 background-color: $nav-hover-color;
                 border-radius: 5px 5px 0 0;
                 padding-bottom: 16.5px;
             }
+           
             ul.sub-menu {
             	background-color: $nav-hover-color;
                 min-width: 10em;
